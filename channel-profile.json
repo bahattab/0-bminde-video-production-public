@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "channel": {
+    "name": "بمايند | BMinde"
+  },
+  "language": "ar",
+  "register": "Clear Modern Standard Arabic",
+  "voice_style": "Professional television presenter or documentary narrator; clear articulation, natural pauses, controlled emphasis, no robotic delivery",
+  "selected_voice": {
+    "name": "حامد",
+    "voice_id": "ar-SA-HamedNeural",
+    "rate": "-5%"
+  },
+  "voice_selection_status": "Configured Hamed narration default; verify each generated episode independently",
+  "generation_cost_preference": "Prefer free synthesis; paid services require explicit authorization",
+  "auditions": [
+    {
+      "name": "حامد",
+      "voice_id": "ar-SA-HamedNeural",
+      "file": "assets/audition-hamed-context-accepted.mp3",
+      "status": "configured_reference_sample"
+    }
+  ],
+  "video_defaults": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "episode_duration_seconds": [
+      180,
+      300
+    ]
+  },
+  "palette": {
+    "cream": "#fbf6eb",
+    "navy": "#183b47",
+    "teal": "#2c9389",
+    "coral": "#ed795b",
+    "gold": "#eab451"
+  },
+  "spoken_text_requirements": {
+    "full_arabic_vocalization": true,
+    "grammar_and_sentence_flow_review": true,
+    "correct_tanween": true,
+    "natural_pauses": true,
+    "semantic_context_review": true,
+    "written_diacritics_do_not_prove_audio_pronunciation": true
+  },
+  "accepted_contextual_audition": {
+    "voice_id": "ar-SA-HamedNeural",
+    "rate": "-5%",
+    "sha256": "87076e2aa3d3fea0f117002fc4ecba5c9382201425a9055b10c1d825875729de",
+    "whole_series_pronunciation_accepted": false,
+    "file": "assets/audition-hamed-context-accepted.mp3",
+    "script": "assets/audition-hamed-context-accepted.txt",
+    "duration_seconds": 33.6
+  }
+}

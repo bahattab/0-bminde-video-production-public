@@ -1,0 +1,4 @@
+interface:
+  display_name: "0 - bminde-video-production"
+  short_description: "Arabic BMinde videos with broadcast-style narration"
+  default_prompt: "Use $bminde-video-production to create a scientifically grounded Arabic BMinde episode with professional television-style narration."
